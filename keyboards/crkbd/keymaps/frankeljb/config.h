@@ -32,23 +32,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define TAPPING_TERM 100
 
 // Customized by markstos
-#define TAPPING_TERM 250
+#define TAPPING_TERM 200
 #define TAPPING_TERM_PER_KEY
 // used for Tapping Term on thumb keys
 #define TAPPING_TERM_THUMB 125
 
-// If you press a dual-role key, press another key, and then release the
-// dual-role key, all within the tapping term, by default the dual-role key
-// will perform its tap action. If the HOLD_ON_OTHER_KEY_PRESS option is
-// enabled, the dual-role key will perform its hold action instead.
-#define HOLD_ON_OTHER_KEY_PRESS
-
 // Prevent normal rollover on alphas from accidentally triggering mods.
 #define IGNORE_MOD_TAP_INTERRUPT
-
-#define PERMISSIVE_HOLD
-
-#define COMBO_COUNT 2
 
 // Set the COMBO_TERM so low that I won't type the keys one after each other during normal typing.
 // They would have be held together intentionally to trigger this.
